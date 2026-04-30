@@ -23,6 +23,12 @@ Cada restaurante se identifica con su correo electrónico y contraseña. Una vez
 
 ### Pasos
 
+**0. Añadir .env para las variables de Docker Compose**
+
+Hay un archivo .env.example en que se se le debe cambiar el nombre por: .env
+
+Y editar su contenido con la contraseña y el nombre de la base de datos.
+
 **1. Levantar la base de datos MySQL**
 
 Desde la raíz del proyecto:
