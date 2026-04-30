@@ -1,0 +1,53 @@
+# Compilados de Maven
+target/
+*.jar
+*.war
+*.ear
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse / VS Code
+.classpath
+.project
+.settings/
+.vscode/
+bin/
+
+# Maven Wrapper (opcional, suelen subirse)
+# .mvn/
+# mvnw
+# mvnw.cmd
+
+# Logs
+*.log
+logs/
+spring.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Datos del contenedor MySQL (si se montaran localmente)
+mysql_data/
+
+# Archivos de credenciales locales
+application-local.properties
+application-local.yml
+application-*.local.properties
+application-*.local.yml
+.env
+.env.local
+
+# Spring Boot / Maven generados
+HELP.md
+surefire-reports/
+
+# Java agents temporales
+*.hprof
